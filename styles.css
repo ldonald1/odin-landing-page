@@ -21,6 +21,30 @@ p{
     display:flex;
     gap: 20px;
     margin-top: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+h4{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    max-width: 250px;
+    color: white;
+}
+
+.description{
+    color: #E5E7EB;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -40,9 +64,10 @@ p{
 
 
 .image{
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
     border: 1px solid black;
+    background-color: #8c8c8b;
 }
 
 .signup{
@@ -66,3 +91,52 @@ ul{
     margin: 0;
     padding: 0;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.boxes{
+    display: flex;
+    gap: 50px;
+}
+
+.boxborder{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 1;
+    align-items: center;
+}
+
+.box{
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.boxtext{
+    max-width: 175px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+blockquote{
+    font-size:36px;
+    color: #1F2937;
+    font-weight: 300;
+    align-self: center;;
+}
+
