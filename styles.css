@@ -13,8 +13,10 @@ p{
 
 .header{
     display: flex;
-    justify-content: space-between;
     padding: 20px;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .heading{
@@ -48,12 +50,10 @@ h4{
 }
 
 .logo{
-    margin-left: 16px;
     color: white;
 }
 
 .links{
-    margin-left: auto;
     color: #E5E7EB;
 }
 .headingtext{
@@ -165,7 +165,7 @@ blockquote{
 .actiontext{
     padding: 0;
     margin: 0;
-    color: white;
+    color: #E5E7EB;
 }
 
 .outline{
@@ -173,6 +173,17 @@ blockquote{
 }
 
 .footer{
+    display: flex;
     background-color: #1F2937;
+    color:#E5E7EB;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    color:#E5E7EB;
+    text-decoration: none;
 }
 
